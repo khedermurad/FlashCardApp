@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#320050A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            >
+
+
+            <TextView
+                android:id="@+id/categoryRvItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rounded_background"
+                android:padding="4dp"
+                android:text="@string/category2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ratingRvItem"
+                app:layout_constraintTop_toBottomOf="@+id/descrRvItem" />
+
+            <RatingBar
+                android:id="@+id/ratingRvItem"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="181dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:max="5"
+                android:rating="0"
+                android:scaleX=".5"
+                android:scaleY=".5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descrRvItem"
+                android:theme="@style/RatingBar"
+                />
+
+            <ImageButton
+                android:id="@+id/menuRvItem"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/todo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/baseline_more_vert_24" />
+
+            <TextView
+                android:id="@+id/titleRvItem"
+                android:layout_width="224dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:text="@string/title"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dateRvItem"
+                android:layout_width="84dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/_20_01_2021"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toStartOf="@+id/menuRvItem"
+                app:layout_constraintHorizontal_bias="0.133"
+                app:layout_constraintStart_toEndOf="@+id/titleRvItem"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/descrRvItem"
+                android:layout_width="351dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:text="@string/beschreibung"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/titleRvItem"
+                app:layout_constraintTop_toBottomOf="@+id/titleRvItem" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

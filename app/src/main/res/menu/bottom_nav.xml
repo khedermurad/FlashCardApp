@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item android:title="@string/search"
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        />
+    <item android:title=""
+        android:id="@+id/placeholder"
+        />
+    <item android:title="@string/bookmark"
+        android:id="@+id/bookmark"
+        android:icon="@drawable/baseline_bookmark_border_24"
+        />
+    <item android:title="@string/chatbot"
+        android:id="@+id/chatbot"
+        android:icon="@drawable/baseline_chat_24"
+        />
+</menu>

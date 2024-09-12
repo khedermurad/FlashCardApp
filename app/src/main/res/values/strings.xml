@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FlipCards</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Kennwort</string>
+    <string name="flipcards">FlipCards</string>
+    <string name="sign_in">Anmelden</string>
+    <string name="sign_up">Registrieren</string>
+    <string name="repeat_password">Kennwort wiederholen</string>
+    <string name="password_forgotten">Passwort vergessen?</string>
+    <string name="btn_new_account">Neues Konto erstellen</string>
+    <string name="already_account">Du hast ein Konto? Melde dich an.</string>
+    <string name="home">Start</string>
+    <string name="search">Suche</string>
+    <string name="add">Add</string>
+    <string name="bookmark">Gespeichert</string>
+    <string name="profile">Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="add_fragment">Add Fragment</string>
+    <string name="bookmark_fragment">Bookmark Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="todo">TODO</string>
+    <string name="settings">Einstellungen</string>
+    <string name="logout">Abmelden</string>
+    <string name="cardset">Kartenset</string>
+    <string name="notes">Notizen</string>
+    <string name="back">Zurück</string>
+    <string name="confirm">Erstellen</string>
+    <string name="title">Titel</string>
+    <string name="description">Beschreibung (optional)</string>
+    <string name="category">Kategorie: </string>
+    <string name="language">Sprache:</string>
+    <string name="visibility">Sichtbarkeit:</string>
+    <string name="word">Begriff</string>
+    <string name="definition">Definition</string>
+    <string name="remove">entfernen</string>
+    <string name="_20_01_2021">20.01.2021</string>
+    <string name="beschreibung">Beschreibung</string>
+    <string name="category2">Kategorie</string>
+    <string name="learnCards">Karteikarten lernen</string>
+    <string name="quiz">Quiz</string>
+    <string name="front">Front</string>
+    <string name="back_">Back</string>
+    <string name="zur_ck">Zurück</string>
+    <string name="weiter">Weiter</string>
+    <string name="next">Nächstes</string>
+    <string name="skip_next">Nächste Seite überspringen</string>
+    <string name="before">vorher</string>
+    <string name="skip_before">vorher überspringen</string>
+    <string name="kartensets_suchen">Kartensets suchen...</string>
+    <string name="suche">Suche</string>
+    <string name="kartenset">Kartenset</string>
+    <string name="titel_beschreibung">Titel, Beschreibung</string>
+    <string name="schriftlicher_test">Schriftlicher Test</string>
+    <string name="test">Überprüfen</string>
+    <string name="showAnswer">Antwort anzeigen</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="chatbothint">Sende eine Nachricht an Chatbot</string>
+    <string name="generate_set">Generiere Lernkartenset aus Text</string>
+    <string name="generate_cards">Lernkarten generieren</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

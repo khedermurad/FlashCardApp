@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ui.MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlipCards"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".ui.GenerateSetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CardTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SetsCollectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CardsViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CardsInputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
