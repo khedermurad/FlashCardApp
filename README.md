@@ -1,4 +1,5 @@
 # FlipCards
+FlipCards is an Android app that lets users create, manage, and review custom flashcards, with a user-friendly design tailored for learning and productivity.
 
 ### Features
 - **User Registration and Login**: Users can easily register and log in using their email and password.
